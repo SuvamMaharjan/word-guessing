@@ -1,8 +1,7 @@
-const options = {
+ const options = {
     atom: "smallest unit of matter, consisting of protons, neutrons, and electrons",
     cell: "basic unit of life, the building block of all living organisms",
     gravity: "force that pulls objects toward the center of the Earth",
-    photosynthesis: "process by which plants make their own food using sunlight",
     energy: "ability to do work or cause change, exists in various forms",
     ecosystem: "community of living organisms and their physical environment",
     force: "push or pull that can change the motion of an object",
