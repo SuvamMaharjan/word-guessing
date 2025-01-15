@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Science word guessing game</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.png" type="image/png">
+    <style>
+      #start {
+        font-size: 1.2em;
+        padding: 1em 3em;
+        background-color: #fff07a;
+        color: rgb(0, 0, 0);
+        border: none;
+        outline: none;
+        border-radius: 2em;
+        cursor: pointer;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+      }
+
+      #start:hover {
+        transform: scale(1.2); /* Makes the button bigger */
+        background-color: #f4e46e; /* Lighter color */
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div class="hint-ref"></div>
+      <div id="user-input-section"></div>
+      <div id="message"></div>
+      <div id="letter-container"></div>
+    </div>
+    <div class="controls-container">
+      <div id="result"></div>
+      <div id="word"></div>
+      <button id="start">Start</button>
+    </div>
+    <script src="script.js"></script>
+
+    <!-- Link with hover effect -->
+    <a href="https://www.youtube.com/watch?v=-qd5sjOfgYY" 
+      style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); font-size: 12px; color: white; cursor: pointer; transition: transform 0.3s ease, color 0.3s ease;"
+      onmouseover="this.style.transform='translateX(-50%) translateY(-10px)'; this.style.color='#f39c12';"
+      onmouseout="this.style.transform='translateX(-50%) translateY(0)'; this.style.color='white';">
+      video i used
+    </a>
+
+    <!-- "by suvam maharjan" with hover effect -->
+    <p style="position: absolute; bottom: 10px; left: 10%; transform: translateX(-50%); font-size: 12px; color: white; cursor: pointer; text-decoration: underline; transition: transform 0.3s ease, color 0.3s ease;"
+      onmouseover="this.style.transform='translateX(-50%) translateY(-10px)'; this.style.color='#f39c12';"
+      onmouseout="this.style.transform='translateX(-50%) translateY(0)'; this.style.color='white';"
+      onclick="window.location.href='https://suvammaharjan.github.io/Suvam-s-Kitchen/'">
+      by suvam maharjan
+    </p>
+
+  </body>
+</html>
